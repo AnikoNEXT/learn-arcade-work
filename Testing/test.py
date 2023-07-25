@@ -1,18 +1,14 @@
-print ("Hello Bello")
+# Create an empty list
+my_list = []
+
+for i in range(5):
+    user_input = input( "Enter an integer: ")
+    user_input = int(user_input)
+    my_list.append(user_input)
+    print(my_list)
 
 
-#print("Hi! This is a double quote mark: " We use it for printing.")
 
-print("Hi! This is a double quote mark: \" We use it for printing.")
 
-print("The file is stored in C:\new folder")
 
-"""
-This is a sample program to show how to draw using the Python programming
-language and the Arcade library.
 
-Multi-line comments are surrounded by three double-quote marks.
-Single-line comments start with a hash/pound sign. #
-"""
-
-# This is a single-line comment.
